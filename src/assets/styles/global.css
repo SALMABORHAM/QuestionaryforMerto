@@ -1,0 +1,338 @@
+/* Define NeoSansArabic font */
+@font-face {
+    font-family: 'NeoSansArabic';
+    src: url('/assets/fonts/NeoSansArabic/neo-sans-arabic-regular.ttf') format('truetype');
+    font-weight: 400;
+ 
+    font-style: normal;
+    font-display: swap;
+}
+ 
+ @font-face {
+    font-family: 'NeoSansArabic';
+    src: url('/assets/fonts/NeoSansArabic/neo-sans-arabic-regular[95].ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+ 
+@font-face {
+    font-family: 'NeoSansArabic';
+    src: url('/assets/fonts/NeoSansArabic/NeoSansArabic-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+ 
+@font-face {
+    font-family: 'NeoSansArabic';
+    src: url('/assets/fonts/NeoSansArabic/NeoSansArabic-Light[100].ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+ 
+@font-face {
+    font-family: 'NeoSansArabic';
+    src: url('/assets/fonts/NeoSansArabic/NeoSansArabic-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+ 
+@font-face {
+    font-family: 'NeoSansArabic';
+    src: url('/assets/fonts/NeoSansArabic/NeoSansArabic-Medium[14].ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+ 
+@font-face {
+    font-family: 'NeoSansArabic';
+    src: url('/assets/fonts/NeoSansArabic/NeoSansArabic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+ 
+@font-face {
+    font-family: 'NeoSansArabic';
+    src: url('/assets/fonts/NeoSansArabic/NeoSansArabicBold.ttf') format('truetype');
+    font-weight: 700;
+    /* Bold weight */
+    font-style: normal;
+    font-display: swap;
+}
+ 
+@font-face {
+    font-family: 'NeoSansArabic';
+    src: url('/assets/fonts/NeoSansArabic/NeoSansArabicBold[12].ttf') format('truetype');
+    font-weight: 700;
+    /* Bold weight (12 variant) */
+     font-style: normal;
+    font-display: swap;
+}
+ 
+@font-face {
+    font-family: 'NeoSansArabic';
+    src: url('/assets/fonts/NeoSansArabic/NeoSansArabicBold[20].ttf') format('truetype');
+    font-weight: 700;
+    /* Bold weight (20 variant) */
+    font-style: normal;
+    font-display: swap;
+}
+ 
+@font-face {
+    font-family: 'NeoSansArabic';
+    src: url('/assets/fonts/NeoSansArabic/NeoSansArabicBold[28].ttf') format('truetype');
+    font-weight: 700;
+    /* Bold weight (28 variant) */
+    font-style: normal;
+    font-display: swap;
+}
+ 
+@font-face {
+    font-family: 'NeoSansArabic';
+    src: url('/assets/fonts/NeoSansArabic/NeoSansArabicMedium.ttf') format('truetype');
+    font-weight: 600;
+    /* Medium weight */
+    font-style: normal;
+    font-display: swap;
+}
+ 
+@font-face {
+    font-family: 'NeoSansArabic';
+    src: url('/ass/fonts/NeoSansArabic/NeoSansArabicMedium[95].ttf') format('truetype');
+    font-weight: 600;
+    /* Medium weight (95 variant) */
+    font-style: normal;
+    font-display: swap;
+}
+ 
+@font-face {
+    font-family: 'NeoSansArabic';
+    src: url('/assets/fonts/NeoSansArabic/NeoSansArabicMedium[96].ttf') format('truetype');
+    font-weight: 600;
+    /* Medium weight (96 variant) */
+     font-style: normal;
+    font-display: swap;
+}
+ 
+@font-face {
+    font-family: 'NeoSansArabic';
+    src: url('/assets/fonts/NeoSansArabic/NeoSansArabicUltra.ttf') format('truetype');
+    font-weight: 800;
+    /* Ultra weight */
+     font-style: normal;
+    font-display: swap;
+}
+ 
+@font-face {
+    font-family: 'NeoSansArabic';
+    src: url('/assets/fonts/NeoSansArabic/NeoSansArabicUltra[9].ttf') format('truetype');
+    font-weight: 800;
+    /* Ultra weight (9 variant) */
+     font-style: normal;
+    font-display: swap;
+}
+ 
+@font-face {
+    font-family: 'NeoSansArabic';
+    src: url('/assets/fonts/NeoSansArabic/NeoSansArabicUltra[68].ttf') format('truetype');
+    font-weight: 800;
+    /* Ultra weight (68 variant) */
+    font-style: normal;
+    font-display: swap;
+}
+ 
+ 
+@font-face {
+    font-family: 'NeoSansArabic';
+    src: url('/assets/fonts/NeoSansArabic/NeoSansArabicBold.ttf') format('truetype');
+    font-weight: 900;
+    /* Ultra weight (68 variant) */
+     font-style: normal;
+    font-display: swap;
+}
+/* /*Apply NeoSansArabic as the default font */
+.body {
+    font-family: 'NeoSansArabic', sans-serif;
+    direction: rtl !important;
+}
+.padingMargin0 {
+    padding: 0px !important;
+    margin: 0px !important;
+}
+.Box {
+    position: absolute;
+    width: 62.7vw;
+    height: 20.27vh;
+    left: 20.2vw;
+    right: 20.2vw;
+    top: 43.14vh;
+    border-radius: 0.5vw; /* Smaller radius */
+    padding: 10vh 5vw 1vh 5vw;
+    background-color: #ffffff;
+    font-size: 24px;
+    font-family: 'NeoSansArabic';
+    font-weight: 900;
+    line-height: 25px;
+    text-align: center;
+    direction: rtl;
+}
+.Box div {
+    width: 100%;
+}
+.Box div p {
+    margin-top: 1rem;
+}
+.speakerIcon {
+    position: absolute;
+    left: 1vw;
+    top: 0vh;
+}
+.speakerIcon {
+    position: absolute;
+    right: 20px;
+    top: 15px;
+}
+.SalekAvatar{
+      position: absolute;
+      width: 18.75vw;
+      height: 40.64vh;
+      left: 47.50vw;
+      top: 16.9vh;
+}
+  .btnYellow {
+    background: #FCEE21;
+    border-radius: 0.5vw;
+    width: 13.02vw;
+    height: 5.33vh;
+    font-size: 24px;
+    top:60vh;
+    font-family: 'NeoSansArabic';
+    font-weight: 900;
+    line-height: 25px;
+    text-align: center;
+}
+  .btnBlack {
+    background: #101820;
+    color: #ffffff;
+    border-radius: 0.5vw;
+    width: 13.02vw;
+    height: 5.33vh;
+    font-size: 24px;
+    font-family: 'NeoSansArabic';
+    font-weight: 900;
+    line-height: 25px;
+    text-align: center;
+}
+ 
+.rdmcRtl {
+    direction: rtl !important;
+}
+.options {
+    position: absolute;
+    width: 92.8vw;
+    /* height: 60vh; */
+    height: 40vh;
+    border-radius: 0.5vw; 
+    bottom: 0;
+    line-height: 90px;
+    left: 3.6vw;
+    padding-left: 1.7vw;
+    padding-right: 1.7vw;
+}
+ 
+.optionsBtn {
+    width: 10vw;
+    height: 4.3vh;
+    border-radius: 1vw;
+    font-size: 22px;
+    font-weight: 900;
+    line-height: 50px;
+    padding: 1vh 3vw 1vh 3vw;
+    text-align: center;
+    font-family: 'NeoSansArabic';
+    z-index: 10001;
+}
+.content {
+    text-align: center; 
+  }
+  
+
+    /* .progress-label {
+     position: absolute;
+     top: 0;
+     left: 90%;
+     transform: translateX(-50%);
+     color: black;
+     font-weight: bold;
+     font-size: 22px;
+     }
+             */
+     
+     .choicesDiv {
+        position: absolute;
+        z-index:10000;
+        width:75vw;
+        height: 60.1vh;
+        border-radius: 1vw;
+        left: 13vw;
+        right: vw;
+        text-align: center;
+        direction: rtl;
+        top: 67.40vh;
+        transform: translateX(2%);
+        font-family: 'NeoSansArabic',;
+        display:inline-block;
+        justify-content: center;
+        align-items: center;
+    }
+    .choicesDiv .choicesBtn {
+        /* position:relative; */
+        width: 60vw;
+        height: 55px;
+        margin: 8px 8px 8px 8px;
+        border-radius: 0.5vw;
+        /* opacity: 0px; */
+        font-size: 22px;
+        display: inline-block;
+        font-weight: 900;
+        line-height: 21.6px;
+        text-align: center;
+        direction: rtl !important;
+    }
+    .selectStations
+    {
+        padding: 10px;
+        background-color: #fff;
+        width:70%;
+        transform: translateX(25%);
+    }
+    .progress-container {
+        position: absolute;
+        top: 0px;
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      
+      .progress-bar {
+        width: 100%;
+        height: 5px;
+      }
+      
+      .progress-percentage {
+        font-size: 20px;
+        color: black;
+         position: absolute;
+         left: 31.8vw;
+        top: 38px;
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }

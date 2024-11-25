@@ -1,0 +1,41 @@
+{
+  "name": "salek-website",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --fix --ignore-path .gitignore"
+  },
+  "dependencies": {
+    "@mdi/font": "^7.4.47",
+    "@vueuse/core": "^11.2.0",
+    "core-js": "^3.37.1",
+    "roboto-fontface": "^0.10.0",
+    "vue": "^3.5.13",
+    "vue-i18n": "^10.0.4",
+    "vue-loader": "^17.3.1",
+    "vuetify": "^3.7.0-beta.1"
+  },
+  "devDependencies": {
+    "@babel/types": "^7.24.7",
+    "@types/node": "^20.14.10",
+    "@vitejs/plugin-vue": "^5.0.5",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^9.15.0",
+    "eslint-plugin-typescript": "^0.14.0",
+    "postcss": "^8.4.49",
+    "sass": "1.77.6",
+    "stylelint": "^16.10.0",
+    "stylelint-config-recommended-scss": "^14.1.0",
+    "stylelint-config-standard": "^36.0.1",
+    "stylelint-scss": "^6.9.0",
+    "tailwindcss": "^3.4.15",
+    "typescript": "^5.6.3",
+    "unplugin-fonts": "^1.1.1",
+    "unplugin-vue-components": "^0.27.2",
+    "vite": "^5.3.3",
+    "vite-plugin-vuetify": "^2.0.3",
+    "vue-tsc": "^2.0.26"
+  }
+}
