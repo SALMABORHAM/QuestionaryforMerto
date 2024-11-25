@@ -10,7 +10,7 @@ import choicesBtn from '@/components/choicesBtn.vue';
 import ProgressBox from "@/components/ProgressBox.vue";
 import ProgressFill from "@/components/ProgressFill.vue";
 
-const steps = ref(2)
+const steps = ref(1)
 const progress = ref(10);
 
 const selectedChoice = ref<string | null>(null);
